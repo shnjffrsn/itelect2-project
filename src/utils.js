@@ -29,6 +29,8 @@ export class TaskValidationError extends Error{
     }
 }
 
+export const tasks = [{id: 1, title: 'Task 1', completed: false}, {id: 2, title: 'Task 2', completed: true}];
+
 /*
 Requirements (2 of 2):
 Create TaskValidationError extends Error in src/utils.js, with this.name = "TaskValidationError".
