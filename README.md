@@ -16,6 +16,8 @@ My IT Elective 2 backend web development project.
 
 **GT6 (August 5)**: API Testing
 
+**GT7 (August 12)**: Connecting PostgreSQL via Sequelize
+
 ---
 # API Testing
 
