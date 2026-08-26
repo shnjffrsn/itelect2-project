@@ -18,6 +18,8 @@ My IT Elective 2 backend web development project.
 
 **GT7 (August 12)**: Connecting PostgreSQL via Sequelize
 
+**GT7 (August 19)**: Database Relationships and Queries
+
 ---
 # API Testing
 
@@ -47,3 +49,32 @@ DELETE /api/tasks/:id (first try)
 
 ![delete-1](screenshots/delete-1.png)
 DELETE /api/tasks/:id (second try)
+
+---
+# GT8 API Testing
+![get-8.1](screenshots/get-8.1.png)
+GET /api/tasks/
+
+![get-8.2](screenshots/get-8.2.png)
+GET /api/tasks/1
+
+![get-8.3](screenshots/get-8.3.png)
+GET /api/tasks/999
+
+![get-8.4](screenshots/get-8.4.png)
+GET /api/users/
+
+![post-8.1](screenshots/post-8.1.png)
+POST /api/tasks/
+
+![post-8.2](screenshots/post-8.2.png)
+POST /api/tasks/ (containing User ID only)
+
+![put-8.1](screenshots/put-8.1.png)
+PUT /api/tasks/
+
+![delete-8.1](screenshots/delete-8.1.png)
+DELETE /api/tasks/1 (first try)
+
+![delete-8.2](screenshots/delete-8.2.png)
+DELETE /api/tasks/1 (second try)
