@@ -18,7 +18,9 @@ My IT Elective 2 backend web development project.
 
 **GT7 (August 12)**: Connecting PostgreSQL via Sequelize
 
-**GT7 (August 19)**: Database Relationships and Queries
+**GT8 (August 19)**: Database Relationships and Queries
+
+**GT7 (August 26)**:bcrypt hashing and JWT login
 
 ---
 # API Testing
@@ -78,3 +80,32 @@ DELETE /api/tasks/1 (first try)
 
 ![delete-8.2](screenshots/delete-8.2.png)
 DELETE /api/tasks/1 (second try)
+
+---
+# GT9 API Testing
+![post-9.1](screenshots/post-9.png)
+POST /api/auth/register (signing up)
+
+![post-9.2](screenshots/post-9.2.png)
+POST /api/auth/register (signing up with the same email)
+
+![post-9.3](screenshots/post-9.3.png)
+POST /api/auth/register (password shorter than 8 characters)
+
+![post-9.4](screenshots/post-9.4.png)
+POST /api/auth/login (logging in to an existing account from the database)
+
+![jwt.io](screenshots/jwt.io.png)
+JWT Confirmation
+
+![post-9.5](screenshots/post-9.5.png)
+POST /api/auth/login (logging in to with a wrong password)
+
+![post-9.6](screenshots/post-9.6.png)
+POST /api/auth/login (logging in to an non-existing account from the database)
+
+![get-9.1](screenshots/get-9.png)
+GET /api/tasks
+
+![get-9.2](screenshots/get-9.2.png)
+GET /api/users
