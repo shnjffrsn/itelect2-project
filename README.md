@@ -20,7 +20,9 @@ My IT Elective 2 backend web development project.
 
 **GT8 (August 19)**: Database Relationships and Queries
 
-**GT7 (August 26)**:bcrypt hashing and JWT login
+**GT9 (August 26)**: bcrypt hashing and JWT login
+
+**GT10 (September 16)**: Authorization and Security
 
 ---
 # API Testing
@@ -109,3 +111,17 @@ GET /api/tasks
 
 ![get-9.2](screenshots/get-9.2.png)
 GET /api/users
+
+---
+# GT10 API Testing
+![post-10.1](screenshots/post-10.1.png)
+GET /api/auth/login (ADMIN)
+
+![post-10.2](screenshots/post-10.2.png)
+GET /api/auth/login (MEMBER)
+
+![delete-10.1](screenshots/delete-10.1.png)
+DELETE /api/tasks/1 (NO TOKEN)
+
+![delete-10.2](screenshots/delete-10.2.png)
+DELETE /api/tasks/1 (WITH TOKEN, NON-ADMIN)
