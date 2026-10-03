@@ -4,7 +4,7 @@ export default function errorHandler(err, req, res, next){
   }
 
   if (err.name === 'SequelizeUniqueConstraintError'){
-    return res.status(409).json({error: 'Email has already been taken.'});
+    return res.status(409).json({error: 'Email has already been taken'});
   }
 
   console.error(err.message);
