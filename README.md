@@ -24,6 +24,8 @@ My IT Elective 2 backend web development project.
 
 **GT10 (September 16)**: Authorization and Security
 
+**GT11 (September 23)**: MVC Refactor
+
 ---
 # API Testing
 
@@ -115,13 +117,30 @@ GET /api/users
 ---
 # GT10 API Testing
 ![post-10.1](screenshots/post-10.1.png)
-GET /api/auth/login (ADMIN)
+POST /api/auth/login (ADMIN)
 
 ![post-10.2](screenshots/post-10.2.png)
-GET /api/auth/login (MEMBER)
+POST /api/auth/login (MEMBER)
 
 ![delete-10.1](screenshots/delete-10.1.png)
 DELETE /api/tasks/1 (NO TOKEN)
 
 ![delete-10.2](screenshots/delete-10.2.png)
+DELETE /api/tasks/1 (WITH TOKEN, NON-ADMIN)
+
+---
+# GT11 API Testing
+![get-11.1](screenshots/get-11.1.png)
+GET /api/tasks
+
+![post-11.1](screenshots/post-11.1.png)
+POST /api/tasks
+
+![post-11.2](screenshots/post-11.2.png)
+GET /api/auth/login (MEMBER)
+
+![delete-11.1](screenshots/delete-11.1.png)
+DELETE /api/tasks/1 (INSERTING TOKEN)
+
+![delete-11.2](screenshots/delete-11.2.png)
 DELETE /api/tasks/1 (WITH TOKEN, NON-ADMIN)
