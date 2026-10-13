@@ -26,6 +26,8 @@ My IT Elective 2 backend web development project.
 
 **GT11 (September 23)**: MVC Refactor
 
+**GT12 (October 7)**: Deploy to Render
+
 ---
 # API Testing
 
@@ -144,3 +146,7 @@ DELETE /api/tasks/1 (INSERTING TOKEN)
 
 ![delete-11.2](screenshots/delete-11.2.png)
 DELETE /api/tasks/1 (WITH TOKEN, NON-ADMIN)
+
+---
+# GT12 Live URL
+https://itelect2-project-qkyn.onrender.com/
