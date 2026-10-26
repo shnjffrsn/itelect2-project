@@ -28,6 +28,8 @@ My IT Elective 2 backend web development project.
 
 **GT12 (October 7)**: Deploy to Render
 
+**GT14 (October 21)**: Connect React client to the deployed API
+
 ---
 # API Testing
 
