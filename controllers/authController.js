@@ -7,6 +7,10 @@ const SALT_ROUNDS = 10;
 
 export async function register(req, res){
   const {name, email, password} = req.body;
+  
+  if (!email){
+    return res.status(400).json({error: 'Email is required'});
+  }
 
   if (!password || password.length < 8){
     return res.status(400).json({error: 'Password must be at least 8 characters'});
@@ -24,6 +28,11 @@ export async function register(req, res){
 
 export async function login(req, res){
   const {email, password} = req.body;
+  
+  if (!email || !password){
+    return res.status(400).json({error: 'Email and password are required'});
+  }
+
   const user = await User.findOne({where:{email}});
   if (!user){
     return res.status(401).json({error: 'Invalid email or password'});
